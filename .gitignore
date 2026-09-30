@@ -1,0 +1,34 @@
+# Compilação Rust
+/target/
+**/*.rs.bk
+Cargo.toml.orig
+
+# Segredos e ambiente local
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# URL da base com credenciais (copiar de .cargo/config.toml.example)
+.cargo/config.toml
+
+# IDE e SO
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e cobertura
+*.log
+coverage/
+lcov.info
+*.profraw
+*.profdata
+
+# Artefactos locais
+*.exe
+*.pdb

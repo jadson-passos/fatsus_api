@@ -1,0 +1,5 @@
+# Copie este ficheiro para config.toml (não versionado).
+# Usado pelo `cargo test` para ligar ao Postgres local do docker compose.
+
+[env]
+DATABASE_URL = "postgres://postgres:postgrespassword@localhost:5435/fatsus_db"
